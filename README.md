@@ -26,8 +26,8 @@ This script will convert our [Color Calibration Card](fbc-card.jpg) into an [AR 
 npm start
 ```
 
-> ℹ️ After creating new marker files, make sure to copy the following files over to our [Color Calibration Camera](https://github.com/FindByColor/color-calibration-camera) repo.
+> ℹ️ Update the following files in our [Color Calibration Camera](https://github.com/FindByColor/color-calibration-camera) repo.
 
-* [marker/fbc-card.fset](marker/fbc-card.fset)
-* [marker/fbc-card.fset3](marker/fbc-card.fset3)
-* [marker/fbc-card.iset](marker/fbc-card.iset)
+* [fbc-card.fset](marker/fbc-card.fset)
+* [fbc-card.fset3](marker/fbc-card.fset3)
+* [fbc-card.iset](marker/fbc-card.iset)
