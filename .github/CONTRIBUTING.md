@@ -50,24 +50,3 @@ Pull Requests
 3. Create a new branch with the structure `feature/*`, e.g. `feature/123-mobile-header`
 4. When you are ready to submit your code, submit a new Pull Request that merges your code into `develop`
 5. Tag your new Pull Request with `Ready for Code Review`
-
-Updating API Documentation
----
-
-> If you need to create or change any of the API Endpoints, you'll want to make sure the API documentation is updated as well before submitting a Pull Request.
-
-Our API Documentation is contained in the `apiary.apib` found in the root folder.  This file uses a Special Documentation Format called a [Blueprint](https://help.apiary.io/api_101/api_blueprint_tutorial/). The `main` branch in GitHub is automatically synced with [https://findbycolor.docs.apiary.io](https://findbycolor.docs.apiary.io).
-
-If you edit the file locally, you will probably want a way to preview the document while you are working on it.  Fortunately, Apiary has a tool to help with that ( you'll need to do this on your local machine, as this does not work in Docker yet ):
-
-```bash
-gem install apiaryio
-```
-
-Once you have `apiary` installed, you can run the following command in the root of the API folder.
-
-```bash
-apiary preview --server --watch --host=api.findbycolor.loc --port=8081
-```
-
-Then you can open the API Documentation Preview in your browser at [http://api.findbycolor.loc:8081](http://api.findbycolor.loc:8081) and it will automatically update as you make changes ( it does take it a second or so to compile each time ).
