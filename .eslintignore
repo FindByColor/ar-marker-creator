@@ -1,0 +1,3 @@
+node_modules/**
+lib/MarkerCreator_wasm.js
+lib/MarkerCreator_wasm.wasm

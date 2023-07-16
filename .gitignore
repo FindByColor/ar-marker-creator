@@ -1,0 +1,10 @@
+!.cache
+!.nvmrc
+.DS_Store
+.idea
+.vscode
+*.code-workspace
+*.log
+node_modules
+Thumbs.db
+!ar-marker-creator.code-workspace
